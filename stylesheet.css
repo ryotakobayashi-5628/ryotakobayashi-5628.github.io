@@ -1,0 +1,30 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.top-wrapper{background-image:url(https://prog-8.com/images/html/advanced/top.png);padding-top:180px;padding-bottom:100px;text-align:center;background-size:cover;}
+.top-title{font-size:45px;letter-spacing:5px;color:white;opacity:0.7;}
+.sub-title{margin-bottom:30px;color:white;opacity:0.7;}
+.signup{background:#239b76;opacity:0.8;color:white;padding:8px 24px;}
+.facebook{background:#3b5998;opacity:0.8;color:white;padding:8px 24px;margin-right:10px;}
+.twitter{background:#55acee;opacity:0.8;color:white;padding:8px 24px;}
+.or{margin:15px auto;color:white;opacity:0.7px;}
+.btn{display:inline-block;border-radius:4px;}
+.fa{margin-right:5px;}
